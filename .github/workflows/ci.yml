@@ -1,7 +1,7 @@
 name: Check
 on:
     pull_request:
-        branches: [ trunk ]
+        branches: [ develop ]
 jobs:
     verify:
         runs-on: ubuntu-latest
